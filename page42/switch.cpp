@@ -8,11 +8,17 @@ void showSwitch() {
 	switch (num)
 	{
 	case 1:
-		cout << "num = " << num << endl;
+	{
+		cout << "> -- received num = " << num << endl;
 		printf("name 1\n");
+		break;
+	}
 	case 0:
-		cout << "num = " << num << endl;
+	{
+		cout << "> -- received num = " << num << endl;
 		printf("name 0\n");
+		break;
+	}
 	default:
 		printf("print out of range\n");
 		break;
